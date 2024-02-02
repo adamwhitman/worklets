@@ -7,7 +7,7 @@
 #% DESCRIPTION
 #%     THis worklet will allow you to rollback Linux packages to the previously installed version.
 #% 
-#% DISCLAIMER
+#% WARNING!
 #%     USE CAUTION WHEN ROLLING BACK LINUX PATCHES AS IT COULD CAUSE THE OS TO BECOME UNRESPONSIVE
 #%     Doing full system backup prior to any update is always recommended, and yum history is NOT meant to replace systems backups. 
 #%     Be sure to check your distros best practice before rolling back packages

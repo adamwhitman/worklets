@@ -5,8 +5,13 @@
 #%    
 #%
 #% DESCRIPTION
-#%    This worklet will allow you to rollback Linux packages to the previously installed version.
-#%    
+#%     THis worklet will allow you to rollback Linux packages to the previously installed version.
+#% 
+#% DISCLAIMER
+#%     USE CAUTION WHEN ROLLING BACK LINUX PATCHES AS IT COULD CAUSE THE OS TO BECOME UNRESPONSIVE
+#%     Doing full system backup prior to any update is always recommended, and yum history is NOT meant to replace systems backups. 
+#%     Be sure to check your distros best practice before rolling back packages
+#% 
 #% USAGE
 #%    EVALUATION VARIABLES
 #%    package='<package_name>' : name of the package you want to rollback. This can be retrived from Automox within the software page or device details page.

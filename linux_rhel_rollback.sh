@@ -34,7 +34,7 @@
 
 #####user input #####
 package='<package_name>'
-version='>package_version'
+version='<package_version>'
 
 
 install_check=$(yum list installed | grep -i $package | awk 'NR==1 {print $1}')
